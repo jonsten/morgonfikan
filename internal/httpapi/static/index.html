@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dagens fika och veckans servering.">
+    <title>Morgonfika</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header class="page-header">
+        <p class="eyebrow">Morgonfika</p>
+        <h1>Vad blir det för fika?</h1>
+      </header>
+      <section class="today card" aria-labelledby="today-title">
+        <h2 id="today-title">Dagens fika</h2>
+        <p id="today-date" class="date" aria-live="polite"></p>
+        <p id="today-menu" class="menu" aria-live="polite">Hämtar dagens fika …</p>
+      </section>
+      <section class="week" aria-labelledby="week-title">
+        <h2 id="week-title">Kommande vardagar</h2>
+        <p id="error" class="error" role="alert" hidden></p>
+        <ol id="week-list" class="week-list"></ol>
+      </section>
+      <footer>
+        <p>Detta schema är skapat efter bästa förmåga, fel kan förekomma!</p>
+      </footer>
+    </main>
+  </body>
+</html>

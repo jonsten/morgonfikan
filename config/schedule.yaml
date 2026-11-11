@@ -1,0 +1,20 @@
+schedules:
+  - valid_from: 2026-11-09
+    anchor_date: 2026-11-09
+    weekdays:
+      monday:
+        - Ost med gurka
+      tuesday:
+        - Ost med groddar
+      wednesday:
+        - Hummus och medvurst med ruccola
+      thursday:
+        - Ost med gurka
+        - Ost med gurka
+        - Ost med marmelad
+        - Ost med gurka
+      friday:
+        - Ost med marmelad
+        - Leverpastej med inlagd gurka
+        - Skinka med tomat
+        - Leverpastej med inlagd gurka
